@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portforlio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <style>
+        body{
+            font-family: kanit;
+            background-color: #eeeeee;
+        }
+        .btn{
+            font-size: 20px;
+        }
+        .container-fluid{
+            font-size: 30px;
+            background-color: #ffffff;
+        }
+        
+    </style>
+    .container{}
+  </head>
+  <body>
+    <header>
+        <!-- nav -->
+      <div class="container">
+       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">My Portforlio </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#profile">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+    </div>
+  </div>
+</nav>
+      </div>
+    </header>
+    <!-- เลื่อน -->
+    <main>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="img/MY.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>My Portforlio</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/เลื่อน.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>CSS Basic</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+    
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/name.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>นายภูริวัจน์ ลิ้มวัฒนโรจน์</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <h5 style="margin-top: 15px; font-size: 50px; text-align: center;">My Workings</h5>
+      <!-- ข้อมูล -->
+        <div class="tab-content">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-3">
+  <div class="col" id="profile">
+    <div class="card">
+      <center><img src="img/phuriwat.jpg" class="card-img-top" alt="..." style="width: fit-content;"></center>
+      <div class="card-body">
+        <h5 class="card-title">นายภูริวัจน์ ลิ้มวัฒนโรจน์</h5>
+        <p class="card-text">ข้อมูลพื้นฐานเกี่ยวกับผู้ทำ</p>
+         <a href="https://shorturl.at/lgmo1" class="btn btn-primary">Details</a>
+         
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/indexpic.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CSS WITH QUIZ</h5>
+        <p class="card-text">เว็บไซต์เรียนรู้การใช้งานภาษา CSS ในเว็บไซต์ของคุณ
+เพื่อให้คุณมีทักษะ ในการใช้งานภาษา CSS เพื่อพัฒนาเว็บไซต์ของคุณให้ดียิ่งขั้น
+เรามีบทเรียนพื้นฐานที่เพียงพอเพื่อให้คุณสามารถนำไปต่อยอดต่อได้</p>
+         <a href="https://tatcpg.github.io/index.html" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="img/ฝึกงานอำเภอ.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ผลงานระหว่างฝึกงาน</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+         <a href="https://www.canva.com/design/DAGerPghRB8/QQmHDhZv9bkrSv6pt6zfSA/view?utm_content=DAGerPghRB8&u
+                tm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc15c5f52ec" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+    </main>
+    <!-- ติดต่อ -->
+     <footer>
+     <!-- Contact Section -->
+  <section class="container my-5" id="contact">
+    <h2 class="text-center mb-4">ติดต่อฉัน</h2>
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="firstName" class="form-label">ชื่อ</label>
+          <input type="text" class="form-control" id="firstName" placeholder="กรอกชื่อของคุณ">
+        </div>
+        <div class="col-md-6">
+          <label for="lastName" class="form-label">นามสกุล</label>
+          <input type="text" class="form-control" id="lastName" placeholder="กรอกนามสกุลของคุณ">
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">อีเมล</label>
+        <input type="email" class="form-control" id="email" placeholder="example@email.com">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">ข้อความ</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="พิมพ์ข้อความของคุณที่นี่..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">ส่งข้อความ</button>
+    </form>
+  </section>
+   <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>บ้านกูเอง</p>
+                    <p>210/384ศรีราชา สุรศักดิ์ ชลบุรี 20110</p>
+                    <p>โทรศัพท์: 095 349 8426</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>ติดตามได้ที่นี่</p>
+                    <img src="img/facebook.png" width="50" class="me-3" alt="https://www.facebook.com/phuri.wacn.lim.wat.hn.rocn">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+ 
+  </body>
+</html>
